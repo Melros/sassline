@@ -10,7 +10,10 @@
 @import "base/layouts";
 
 // Import all SCSS modules with Sass globbing.
-@import "modules/*.*";
+@import "modules/footer";
+@import "modules/globals";
+@import "modules/header";
+@import "modules/nav";
 
 // Demo baseline grid styles.
 #baseline.show-grid {
